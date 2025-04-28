@@ -1,0 +1,20 @@
+.header_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--primary-bg);
+  color : var(--accent-color); 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.title:hover{
+    cursor: pointer;
+    background-color: var(--hover-color);
+    padding: 10px; 
+    border-radius: 10px;
+
+}
+
+
+

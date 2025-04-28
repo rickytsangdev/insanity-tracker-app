@@ -1,0 +1,25 @@
+.content {
+    padding: 16px;
+    background-color: var(--primary-bg);
+  }
+
+  .info-card {
+    margin-bottom: 24px;
+    background-color: var(--secondary-color);
+    color: var(--primary-text);
+  }
+
+  /* Mobile-first full width */
+  .actions button {
+    margin-bottom: 12px;
+    width: 100%; 
+  }
+
+  /* Responsive : pour tablette/desktop */
+@media (min-width: 768px) {
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+}
