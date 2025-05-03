@@ -8,11 +8,15 @@ import { NutritionPageComponent } from './pages/nutrition-page/nutrition-page.co
 import { ExportPageComponent } from './pages/export-page/export-page.component';
 import { NotfoundPageComponent } from './pages/notfound-page/notfound-page.component';
 import { ModalComponent } from './components/shared/modal/modal.component';
+import { TrainingDayComponent } from './pages/training-day/training-day.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
 
 export const routes: Routes = [
   { path: '', component: DashboardPageComponent }, // page d'accueil = page dashboard
+  { path: 'training', component: TrainingDayComponent },
   { path: 'progress', component: ProgressPageComponent },
   { path: 'workout', component: WorkoutPageComponent },
+  { path: 'schedule', component: ScheduleComponent },
   { path: 'nutrition', component: NutritionPageComponent },
   { path: 'export', component: ExportPageComponent },
   { path: 'notfound', component: NotfoundPageComponent },

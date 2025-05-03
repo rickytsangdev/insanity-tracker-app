@@ -6,14 +6,16 @@
         <p>Start Date: --/--/----</p>
         <p>Poids actuel: -- kg</p>
         <p>% Body Fat (IMG): -- %</p>
-        <p>% Indice de masse Corporel (IMC): -- %</p>
+        <p>Indice de masse Corporel (IMC): --</p>
       </mat-card-content>
     </mat-card>
   
     <div class="actions">
-      <button mat-raised-button color="accent" class="full-width">Commencer mon entraînement</button>
-      <button mat-raised-button color="accent" class="full-width">Suivi Nutrition</button>
-      <button mat-raised-button color="accent" class="full-width">Progression</button>
-      <button mat-raised-button color="accent" class="full-width">Exporter</button>
+   
+      <button routerLink="/training" mat-raised-button color="accent" class="full-width">Commencer/Continuer mon entraînement</button>
+      <button routerLink="/schedule"  mat-raised-button color="accent" class="full-width">Schedule</button>
+      <button routerLink="/nutrition" mat-raised-button color="accent" class="full-width">Suivi Nutrition</button>
+      <button routerLink="/progress" mat-raised-button color="accent" class="full-width">Progression</button>
+      <button routerLink="/export" mat-raised-button color="accent" class="full-width">Exporter</button>
     </div>
   </div>
