@@ -1,0 +1,55 @@
+<!-- Auth Modal -->
+<dialog open class="fixed z-50 text-white min-w-96 w-3/6">
+  <div class="flex flex-col p-4 bg-secondary">
+    <!--Title-->
+    <div class="flex justify-between items-center pb-4">
+      <!-- <ng-content select="[heading]"></ng-content> -->
+      <!-- Modal Close Button -->
+      <div class="modal-close cursor-pointer z-50">&#x2715;</div>
+    </div>
+    <div class="flex flex-col items-center justify-center text-center">
+      <h2 class="text-2xl font-bold mb-4">Ajouter un nouvel athlète</h2>
+      <p class="text-sm text-gray-400 mb-4">
+        Remplissez les informations ci-dessous :
+      </p>
+      <div class="text-center flex justify-center">
+        <form class="">
+          <div class="text-center">
+            <input
+              type="text"
+              placeholder="Prénom"
+              class="mb-4 p-2 border border-gray-300 rounded"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Poids actuel en kg"
+              class="mb-4 p-2 border border-gray-300 rounded"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Taille en cm"
+              class="mb-4 p-2 border border-gray-300 rounded"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Age"
+              class="mb-4 p-2 border border-gray-300 rounded"
+            />
+          </div>
+          <button
+            type="submit"
+            class="bg-primary text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-200 ease-in-out"
+          >
+            C'est parti !
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</dialog>
